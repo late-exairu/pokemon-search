@@ -1,16 +1,25 @@
-# Palindrome Checker
+# Pokémon Search App
 
-## Overview
-
-This project is a Palindrome Checker app that allows users to determine whether a given word or phrase is a palindrome. A palindrome is a word, phrase, number, or other sequences of characters that reads the same forward and backward, ignoring punctuation, case, and spacing.  
-Project is a part of JavaScript Algorithms and Data Structures Certification by [CodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/build-a-palindrome-checker-project/build-a-palindrome-checker).
+Welcome to the Pokémon Search App project! This app allows users to search for Pokémon by name or ID and displays detailed information about the searched Pokémon, along with their images. The data is fetched using freeCodeCamp's PokéAPI Proxy.  
+Project is a part of JavaScript Algorithms and Data Structures Certification by [CodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/build-a-pokemon-search-app-project/build-a-pokemon-search-app).
 
 ## Features
 
-- **Input Handling:** The app handles user input by removing all non-alphanumeric characters (punctuation, spaces, and symbols) and converting the remaining characters to the same case (lower or upper case).
+- **Search by Name:**
 
-- **Palindrome Checking:** The core functionality of the app is to check whether the processed input is a palindrome. It evaluates the input to see if it reads the same way forward and backward.
+  - Users should be able to search for Pokémon by entering their names in the search bar.
+
+- **Search by ID:**
+
+  - Users should also have the option to search for Pokémon by entering their IDs.
+
+- **Display Pokémon Information:**
+
+  - Upon a successful search, the app should display detailed information about the Pokémon, including its name, ID, type, and any other relevant data.
+
+- **Show Pokémon Image:**
+  - The app should also fetch and display an image of the searched Pokémon.
 
 ## Demo
 
-You can [try out the Palindrome Checker app live](https://late-exairu.github.io/palindrome-checker).
+Check out the [live demo of Pokémon Search App](https://late-exairu.github.io/pokemon-search).
