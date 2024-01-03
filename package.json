@@ -1,0 +1,28 @@
+{
+  "homepage": "https://late-exairu.github.io/pokemon-search",
+  "name": "pokemon-search",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
+    "postcss": "^8.4.32",
+    "postcss-import": "^15.1.0",
+    "prettier": "^3.1.1",
+    "prettier-plugin-tailwindcss": "^0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
