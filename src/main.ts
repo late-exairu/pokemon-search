@@ -25,7 +25,7 @@ const speed = document.querySelector("#speed") as HTMLTableCellElement;
 
 const handleSearch = (e: Event) => {
   e.preventDefault();
-  const query = searchInput.value;
+  const query = searchInput.value.toLowerCase().trim().replace(" ", "-");
   if (!query) return;
 
   fetch(`https://pokeapi-proxy.freecodecamp.rocks/api/pokemon/${query}`)
@@ -47,10 +47,12 @@ const handleSearch = (e: Event) => {
       specialDefense.textContent = data.stats[4].base_stat;
       speed.textContent = data.stats[5].base_stat;
 
+      // Remove previous sprite and add new one
       spriteContainer.innerHTML = "";
       const image = document.createElement("img");
       image.src = data.sprites.front_default;
       image.alt = data.name;
+      image.id = "sprite";
       image.classList.add("mx-auto", "w-[192px]");
       spriteContainer.appendChild(image);
       card.classList.remove("hidden");
