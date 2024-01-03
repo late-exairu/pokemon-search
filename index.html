@@ -22,6 +22,8 @@
                 id="search-input"
                 class="w-full rounded-md border border-gray-400 p-2 text-slate-800"
                 placeholder="Search for Pokémon Name or ID:"
+                required
+                autofocus
               />
 
               <button
@@ -30,6 +32,19 @@
               >
                 Search
               </button>
+            </div>
+
+            <div id="card" class="my-5 hidden rounded-lg bg-slate-700 p-3">
+              <div class="uppercase">
+                <span id="pokemon-name"></span>
+                <span id="pokemon-id"></span>
+              </div>
+              <div class="">
+                <span id="weight"></span>
+                <span id="height"></span>
+              </div>
+              <div class="" id="sprite-container"></div>
+              <div id="types"></div>
             </div>
 
             <div class="my-5 rounded-lg bg-slate-700 p-3">
