@@ -23,3 +23,11 @@ Project is a part of JavaScript Algorithms and Data Structures Certification by 
 ## Demo
 
 Check out the [live demo of Pokémon Search App](https://late-exairu.github.io/pokemon-search).
+
+### Other projects by JavaScript Algorithms and Data Structures Certification
+
+[Palindrome Checker](https://github.com/late-exairu/palindrome-checker) - [Demo](https://late-exairu.github.io/palindrome-checker/)
+[Roman Numeral Converter](https://github.com/late-exairu/roman-numeral-converter) - [Demo](https://late-exairu.github.io/roman-numeral-converter/)
+[Telephone Number Validator](https://github.com/late-exairu/telephone-number-validator) - [Demo](https://late-exairu.github.io/telephone-number-validator/)
+[Cash Register](https://github.com/late-exairu/cash-register) - [Demo](https://late-exairu.github.io/cash-register/)
+[Pokémon Search App](https://github.com/late-exairu/pokemon-search) - [Demo](https://late-exairu.github.io/pokemon-search/)
