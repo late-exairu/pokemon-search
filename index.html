@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Search</title>
+    <script type="module" crossorigin src="/pokemon-search/assets/index-2dGOmYqE.js"></script>
+    <link rel="stylesheet" crossorigin href="/pokemon-search/assets/index-mrmrSVIT.css">
+  </head>
+  <body class="bg-slate-800">
+    <div class="flex min-h-dvh items-center">
+      <div class="container mx-auto px-5">
+        <div class="mx-auto max-w-96">
+          <h1 class="mb-5 text-center text-3xl font-bold">
+            Pokémon Search App
+          </h1>
+
+          <form class="my-5" id="form">
+            <div class="flex gap-3 md:gap-4">
+              <input
+                type="text"
+                id="search-input"
+                class="w-full rounded-md border border-gray-400 p-2 text-slate-800"
+                placeholder="Search for Pokémon Name or ID:"
+                required
+                autofocus
+              />
+
+              <button
+                id="search-button"
+                class="rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700"
+              >
+                Search
+              </button>
+            </div>
+
+            <div id="card" class="my-5 hidden rounded-lg bg-slate-700 p-3">
+              <div class="uppercase">
+                <span id="pokemon-name"></span>
+                <span id="pokemon-id"></span>
+              </div>
+              <div class="">
+                <span id="weight"></span>
+                <span id="height"></span>
+              </div>
+              <div class="" id="sprite-container"></div>
+              <div
+                id="types"
+                class="flex gap-1 text-sm uppercase *:rounded-lg *:bg-slate-600 *:px-2 *:py-0.5"
+              ></div>
+            </div>
+
+            <div class="my-5 rounded-lg bg-slate-700 p-3">
+              <table class="w-full">
+                <thead>
+                  <tr>
+                    <th class="text-left">Base</th>
+                    <th class="text-left">Stats</th>
+                  </tr>
+                </thead>
+                <tbody class="" id="pokemon-list">
+                  <tr>
+                    <td class="text-left">HP:</td>
+                    <td class="text-left" id="hp"></td>
+                  </tr>
+                  <tr>
+                    <td class="text-left">Attack:</td>
+                    <td class="text-left" id="attack"></td>
+                  </tr>
+                  <tr>
+                    <td class="text-left">Defense:</td>
+                    <td class="text-left" id="defense"></td>
+                  </tr>
+                  <tr>
+                    <td class="text-left">Sp. Attack:</td>
+                    <td class="text-left" id="special-attack"></td>
+                  </tr>
+                  <tr>
+                    <td class="text-left">Sp. Defense:</td>
+                    <td class="text-left" id="special-defense"></td>
+                  </tr>
+                  <tr>
+                    <td class="text-left">Speed:</td>
+                    <td class="text-left" id="speed"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
